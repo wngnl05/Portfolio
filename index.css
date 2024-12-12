@@ -1,9 +1,154 @@
-body{
-    background-color: gray;
+:root {
+    --backgroundColor: #FFFFFF;
+    --fontColor: #252627;
+    --svgColor: #4285F4;
+
+    --black: #252627;
+    --white: #FFFFFF;
+    --gray: #5A5C5D;
+    --lightGray: #E1E1E1;
+
+    --blue: #4285F4;
+    --lightBlue: #93bdff;
 }
 
-button{
-    font-size: 20px;
-    background-color: black;
-    color: white;
+
+body{
+    background-color: var(--backgroundColor);
+    padding: 50px 150px;
+}
+
+
+.text-2xl { font-size: 20px; }
+.text-3xl { font-size: 30px; }
+.text-bold { font-weight: bold; }
+
+.text-blue{ color: var(--blue) }
+.text-gray{ color: var(--gray) }
+
+.magin-bottom{ margin-bottom: 10px; }
+
+
+
+main{
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+
+
+.productContainer{
+    display: flex;
+    gap: 30px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid var(--lightGray);
+}
+
+
+#nameArea{
+    display: flex;
+    gap: 20px;
+}
+
+.titleContainer {
+    flex: 0 0 15%;
+    display: flex;
+}
+
+.titleContainer img{
+    min-height: 200px;
+    max-height: 200px;
+}
+
+
+
+
+.contentContainer{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+
+
+.shortContainer {
+    display: flex;
+    gap: 10px;
+    justify-items: center;
+}
+
+.shortContainer svg {
+    width: 20px;
+    height: 20px;
+    display: block;
+}
+
+.shortContainer span,
+.shortContainer a {
+    font-weight: bold;
+    color: var(--blue);
+    line-height: 1;
+    text-decoration: none;
+}
+
+
+
+#skillsArea {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 0;
+}
+
+.skillsContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#skillsArea svg{
+    width: 20px;
+    height: 20px;
+}
+
+#skillsArea span{
+    line-height: 1;
+}
+
+
+
+.careerContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+
+
+.awardsContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    margin-bottom: 20px;
+}
+
+.awardsContainer ul{
+    margin: 5px 0px 0px 0px;
+    padding-left: 10px;
+    list-style-type: none;
+}
+
+.awardsContainer li {
+    position: relative;
+    padding-left: 20px;
+}
+
+.awardsContainer li::before {
+    content: "-";
+    position: absolute;
+    left: 0;
+    top: 0;
 }

@@ -50,6 +50,18 @@ main{
     gap: 20px;
 }
 
+#fileArea{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+#fileArea a{
+    font-weight: bold;
+    color: var(--blue);
+    line-height: 1;
+}
+
 .titleContainer {
     flex: 0 0 15%;
     display: flex;
@@ -91,7 +103,6 @@ main{
     font-weight: bold;
     color: var(--blue);
     line-height: 1;
-    text-decoration: none;
 }
 
 

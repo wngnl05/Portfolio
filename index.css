@@ -163,3 +163,29 @@ main{
     left: 0;
     top: 0;
 }
+
+
+
+#project{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+#project a{
+    font-size: 20px;
+    line-height: 1;
+}
+
+
+
+
+
+#photo{
+    display: flex;
+    gap: 5px;
+}
+
+#photo img{
+    height: 250px;
+}

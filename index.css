@@ -107,6 +107,22 @@ main{
 
 
 
+.textContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.efficiencyContainer b{
+    font-size: 20px;
+}
+
+.efficiencyContainer ul{
+    margin: 0px 0px 20px 10px;
+    padding-left: 10px;
+    list-style-type: "- ";
+}
+
 #skillsArea {
     width: 100%;
     display: flex;

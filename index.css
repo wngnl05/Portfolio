@@ -113,11 +113,15 @@ main{
     gap: 3px;
 }
 
-.efficiencyContainer b{
-    font-size: 20px;
+#introduceContainer{
+    margin-top: 50px;
 }
 
-.efficiencyContainer ul{
+#introduceContainer b{
+    font-size: 18px;
+}
+
+#introduceContainer ul{
     margin: 0px 0px 20px 10px;
     padding-left: 10px;
     list-style-type: "- ";

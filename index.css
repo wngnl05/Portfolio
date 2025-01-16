@@ -51,12 +51,22 @@ main{
 }
 
 #fileArea{
+    margin-top: 20px;
     display: flex;
     gap: 10px;
     align-items: center;
 }
 
+#fileArea span{
+    font-size: 17px;
+    font-weight: bold;
+    color: var(--blue);
+    line-height: 1;
+    margin-right: 10px;
+}
+
 #fileArea a{
+    font-size: 17px;
     font-weight: bold;
     color: var(--blue);
     line-height: 1;
@@ -100,6 +110,7 @@ main{
 
 .shortContainer span,
 .shortContainer a {
+    font-size: 17px;
     font-weight: bold;
     color: var(--blue);
     line-height: 1;
